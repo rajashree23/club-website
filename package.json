@@ -15,9 +15,13 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "gatsby": "^2.3.16",
+    "jquery": "^3.4.0",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-bootstrap": "^1.0.0-beta.8",
+    "react-dom": "^16.8.6",
+    "reactstrap": "^8.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0",
@@ -29,12 +33,16 @@
     "prettier-eslint-cli": "^4.7.1"
   },
   "husky": {
-    "hooks":{
+    "hooks": {
       "pre-commit": "lint-staged"
     }
   },
-  "lint-staged":{
-    "*.js": ["npm run lint", "npm run lint:fix", "git add"]
+  "lint-staged": {
+    "*.js": [
+      "npm run lint",
+      "npm run lint:fix",
+      "git add"
+    ]
   },
   "repository": {
     "type": "git",
