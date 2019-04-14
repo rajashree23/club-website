@@ -1,7 +1,8 @@
 import React from "react";
+import Navigationbar from "../components/navbar";
 
 export default () => (
   <div>
-    <h1>Homepage</h1>
+    <Navigationbar />
   </div>
 );
