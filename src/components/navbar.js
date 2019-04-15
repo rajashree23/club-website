@@ -6,10 +6,10 @@ export default () => (
   <div>
     <Sitemetadata />
     <Navbar bg="light" expand="lg">
-      <Navbar.Brand href="#home">ZAIRZA</Navbar.Brand>
+      <Navbar.Brand href="/">ZAIRZA</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
+        <Nav className="ml-auto">
           <Nav.Link href="/projects">PROJECTS</Nav.Link>
           <Nav.Link href="/team">MEET THE TEAM</Nav.Link>
           <Nav.Link href="/about">WHAT WE DO</Nav.Link>
