@@ -1,0 +1,13 @@
+members:
+  member1:
+    name: "Aquib Baig"
+    work: "Web Developer"
+    position: "Core Team"
+  member2:
+    name: "Dikshant Brahma"
+    work: "Web Developer"
+    position: "Core Team"
+  member3:
+    name: "Ankit Jena"
+    work: "Web Developer"
+    position: "Core Team"    
