@@ -46,6 +46,12 @@
       "git add"
     ]
   },
+  "keywords": [
+    "gatsby",
+    "react",
+    "material-ui",
+    "javascript"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
