@@ -11,21 +11,19 @@ This will be hosted on `zairza.in`
 
 ## File Heirarchy
 
+```
 .
-+-- _config.yml
-+-- _drafts
-|   +-- begin-with-the-crazy-ideas.textile
-|   +-- on-simplicity-in-technology.markdown
-+-- _includes
-|   +-- footer.html
-|   +-- header.html
-+-- _layouts
-|   +-- default.html
-|   +-- post.html
-+-- _posts
-|   +-- 2007-10-29-why-every-programmer-should-play-nethack.textile
-|   +-- 2009-04-26-barcamp-boston-4-roundup.textile
-+-- _data
-|   +-- members.yml
-+-- _site
-+-- index.html           
+├── src     
+    ├── components              #reusable components
+    ├── config                  #config files(yaml,json,etc)
+    ├── containers              #actual source code for each page
+    ├── pages                   #routes
+├── static                      #static files(css, js, images, etc)                    
+├── .editorconfig               #prettier config file                     
+├── eslint.json                 #eslint config file                  
+├── .gitignore                  #file that are escaped by git                   
+├── LICENSE                     #product/Website license
+└── README.md                   #README
+└── gatsby.config.js            #gatsby config(plugins, themes, etc)
+└── package.json                #npm config file
+```
