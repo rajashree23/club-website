@@ -12,7 +12,7 @@ export default () => (
         <Nav className="ml-auto">
           <Nav.Link href="/projects">PROJECTS</Nav.Link>
           <Nav.Link href="/team">MEET THE TEAM</Nav.Link>
-          <Nav.Link href="/about">WHAT WE DO</Nav.Link>
+          <Nav.Link href="/about">SESSIONS</Nav.Link>
           <Nav.Link href="/alumni">ALUMNI</Nav.Link>
           <Nav.Link href="/faq">FAQs</Nav.Link>
         </Nav>

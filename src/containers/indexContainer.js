@@ -1,6 +1,7 @@
 import React from "react";
 import Navigationbar from "../components/navbar";
 import Typography from "@material-ui/core/Typography";
+import Grid from "../components/grid";
 
 const styles = {
   width: `100%`
@@ -11,8 +12,9 @@ const fontFamily = {
 };
 
 const hrStyle = {
-  width: `200px`,
-  color: `black`
+  width: `800px`,
+  color: `black`,
+  height: `2px`
 };
 
 class IndexContainer extends React.Component {
@@ -24,13 +26,16 @@ class IndexContainer extends React.Component {
         <Typography
           component="h2"
           align="center"
-          variant="headline"
+          variant="h5"
           gutterBottom
           style={fontFamily}
         >
           We are Zairza
         </Typography>
         <hr style={hrStyle} />
+        <div className="container-fluid">
+          <Grid />
+        </div>
       </div>
     );
   }
