@@ -13,15 +13,15 @@ This will be hosted on `zairza.in`
 
 .
 ├── src     
-    ├── components              ### reusable components
-    ├── config                  ### config files(yaml,json,etc)
-    ├── containers              ### actual source code for each page
-    ├── pages                   ### routes
-├── static                      ### static files(css, js, images, etc)                    
-├── .editorconfig               ### prettier config file                     
-├── eslint.json                 ### eslint config file                  
-├── .gitignore                  ### file that are escaped by git                   
-├── LICENSE                     ### product/Website license
-└── README.md                   ### README
-└── gatsby.config.js            ### gatsby config(plugins, themes, etc)
-└── package.json                ### npm config file
+    ├── components              #reusable components
+    ├── config                  #config files(yaml,json,etc)
+    ├── containers              #actual source code for each page
+    ├── pages                   #routes
+├── static                      #static files(css, js, images, etc)                    
+├── .editorconfig               #prettier config file                     
+├── eslint.json                 #eslint config file                  
+├── .gitignore                  #file that are escaped by git                   
+├── LICENSE                     #product/Website license
+└── README.md                   #README
+└── gatsby.config.js            #gatsby config(plugins, themes, etc)
+└── package.json                #npm config file
