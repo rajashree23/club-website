@@ -85,7 +85,7 @@ function FullWidthGrid(props) {
                 color="secondary"
                 className={classes.btn}
               >
-                TEAM
+                RICH ALUMNI BASE
               </Button>
               <Typography
                 component="h2"
