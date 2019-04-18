@@ -12,7 +12,7 @@ const fontFamily = {
 };
 
 const hrStyle = {
-  width: `800px`,
+  width: `400px`,
   color: `black`,
   height: `2px`
 };
