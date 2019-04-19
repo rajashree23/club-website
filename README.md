@@ -27,3 +27,7 @@ This will be hosted on `zairza.in`
 └── gatsby.config.js            #gatsby config(plugins, themes, etc)
 └── package.json                #npm config file
 ```
+##For Linux users facing the following error-
+WebpackError: Cannot find module 'core-js/modules/es6.object.assign' 
+
+`install : npm install --save core-js@2`
