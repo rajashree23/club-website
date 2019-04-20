@@ -100,8 +100,7 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={fontFamily}
               >
-                Monthly sessions include tech talks, demo and display of
-                projects, hands-on experience.
+                Tech talks, demo and display of projects, hands-on experience.
               </Typography>
               <Typography
                 component="h2"
@@ -110,9 +109,8 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={innerTypo}
               >
-                The members of our club hold quality sessions for basic
-                technological enhancements. These sessions attempt to bring all
-                developers and enthusiasts to learn, innovate and share ideas.
+                These sessions attempt to bring all developers and enthusiasts
+                to learn, innovate and share ideas.
               </Typography>
               <Link
                 component="button"
@@ -153,7 +151,7 @@ function FullWidthGrid(props) {
                 style={innerTypo}
               >
                 We have an active, diverse and extremely well-connected Alumni
-                base across the globe with great accomplishments and opinions.
+                base across the globe with great accomplishments.
               </Typography>
               <Link
                 component="button"
@@ -185,8 +183,7 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={fontFamily}
               >
-                Meet our big achievers and great developers with exceptional
-                achievements.
+                Meet our big achievers with exceptional achievements.
               </Typography>
               <Typography
                 component="h2"
