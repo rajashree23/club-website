@@ -100,7 +100,8 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={fontFamily}
               >
-                Monthly sessions on latest technologies by the members.
+                Monthly sessions include tech talks, demo and display of
+                projects, hands-on experience.
               </Typography>
               <Typography
                 component="h2"
@@ -109,9 +110,9 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={innerTypo}
               >
-                The members of our club hold quality sessions on latest and
-                important technologies. These sessions are open for one and
-                everyone.
+                The members of our club hold quality sessions for basic
+                technological enhancements. These sessions attempt to bring all
+                developers and enthusiasts to learn, innovate and share ideas.
               </Typography>
               <Link
                 component="button"
@@ -142,7 +143,7 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={fontFamily}
               >
-                Well placed and connected alumni all over the world.
+                Meet our great achievers and well-placed Alumni.
               </Typography>
               <Typography
                 component="h2"
@@ -151,8 +152,8 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={innerTypo}
               >
-                We have an active and an extremely well-connected Alumni base
-                with great achievers all over the world.
+                We have an active, diverse and extremely well-connected Alumni
+                base across the globe with great accomplishments and opinions.
               </Typography>
               <Link
                 component="button"
@@ -184,7 +185,8 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={fontFamily}
               >
-                Zairza has well placed achievers in good companies.
+                Meet our big achievers and great developers with exceptional
+                achievements.
               </Typography>
               <Typography
                 component="h2"
@@ -194,8 +196,7 @@ function FullWidthGrid(props) {
                 style={innerTypo}
               >
                 Zairza has the highest number of Google Summer of Code interns
-                from a single club from Odisha plus tonnes of other achievements
-                too.
+                from Odisha and various other achievements too.
               </Typography>
               <Link
                 component="button"
@@ -236,8 +237,8 @@ function FullWidthGrid(props) {
                 gutterBottom
                 style={innerTypo}
               >
-                Extensive research and development is carried out which equips
-                the members with knowledge on various technological fields.
+                List of our extensive research work, innovative project
+                development both in hardware as well as in software category.
               </Typography>
               <Link
                 component="button"
