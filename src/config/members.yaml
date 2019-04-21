@@ -2,7 +2,7 @@ members:
   member1:
     name: "Ankit Jena"
     work: "Web Developer"
-    position: "Zairza Convenor" 
+    position: "Zairza Convenor"
   member2:
     name: "Dikshant Brahma"
     work: "Web Developer"
@@ -10,4 +10,8 @@ members:
   member3:
     name: "Aquib Baig"
     work: "Web Developer"
-    position: "Core Team"       
+    position: "Core Team"
+  member4:
+    name: "Adarsh Brata Pal"
+    work: "Web Developer"
+    position: "Core Team"

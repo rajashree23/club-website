@@ -1,8 +1,8 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import Sitemetadata from "./sitemetadata";
+import Sitemetadata from "../components/sitemetadata";
 
-export default () => (
+const NavigationBar = () => (
   <div>
     <Sitemetadata />
     <Navbar bg="light" expand="lg">
@@ -14,9 +14,11 @@ export default () => (
           <Nav.Link href="/team">MEET THE TEAM</Nav.Link>
           <Nav.Link href="/about">SESSIONS</Nav.Link>
           <Nav.Link href="/alumni">ALUMNI</Nav.Link>
-          <Nav.Link href="/faq">FAQs</Nav.Link>
+          <Nav.Link href="/faqs">FAQs</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
   </div>
 );
+
+export default NavigationBar;

@@ -1,5 +1,5 @@
 import React from "react";
-import Navigationbar from "../components/navbar";
+import NavigationBar from "../Layouts/Navigationbar";
 import Typography from "@material-ui/core/Typography";
 import Grid from "../components/grid";
 
@@ -21,7 +21,7 @@ class IndexContainer extends React.Component {
   render() {
     return (
       <div>
-        <Navigationbar />
+        <NavigationBar />
         <img src="index.jpg" style={styles} />
         <Typography
           component="h2"
