@@ -4,11 +4,11 @@
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 [![PRs Welcome](https://img.shields.io/badge/PRs%20-welcome-brightgreen.svg)](https://github.com/madlabsinc/mevn-cli/pull/new)
 
-Netlify: `https://zairza.netlify.com/`
+Netlify: [https://zairza.netlify.com](https://zairza.netlify.com)
 
 **Official Website for the technical club of CET, Bhubaneswar: Zairza**
 
-This will be hosted on `zairza.in`
+This will be hosted on [zairza.in](https://zairza.in)
 
 
 ## File Heirarchy
@@ -29,3 +29,4 @@ This will be hosted on `zairza.in`
 └── gatsby.config.js            #gatsby config(plugins, themes, etc)
 └── package.json                #npm config file
 ```
+Toro
