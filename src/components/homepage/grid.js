@@ -17,14 +17,15 @@ import Typography from "@material-ui/core/Typography";
 // declarations and css
 const innerTypo = {
   color: `grey`,
-  fontSize: `14px`,
+  fontSize: `16px`,
   fontFamily: "Lato",
-  marginBottom: `10px`
+  marginBottom: `20px`
 };
 
-const fontFamily = {
+const outerTypo = {
   fontFamily: "Lato",
-  marginTop: "10px"
+  marginTop: "18px",
+  fontSize: `18px`
 };
 
 const styles = theme => ({
@@ -39,7 +40,7 @@ const styles = theme => ({
   btn: {
     color: "white",
     borderRadius: "20px",
-    fontSize: "12px",
+    fontSize: "14px",
     fontFamily: "Lato"
   },
   thirdButton: {
@@ -85,7 +86,7 @@ function FullWidthGrid(props) {
         {/* First paper component */}
         <Grid container spacing={24}>
           <Grid item xs={12} sm={6} lg={3} md={3}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} square={true}>
               <Button
                 variant="contained"
                 color="primary"
@@ -98,7 +99,7 @@ function FullWidthGrid(props) {
                 align="left"
                 variant="subtitle1"
                 gutterBottom
-                style={fontFamily}
+                style={outerTypo}
               >
                 Tech talks, demo and display of projects, hands-on experience.
               </Typography>
@@ -126,7 +127,7 @@ function FullWidthGrid(props) {
 
           {/* Second paper component */}
           <Grid item xs={12} sm={6} lg={3} md={3}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} square={true}>
               <Button
                 variant="contained"
                 color="secondary"
@@ -139,7 +140,7 @@ function FullWidthGrid(props) {
                 align="left"
                 variant="subtitle1"
                 gutterBottom
-                style={fontFamily}
+                style={outerTypo}
               >
                 Meet our great achievers and well-placed Alumni.
               </Typography>
@@ -168,7 +169,7 @@ function FullWidthGrid(props) {
 
           {/* Third paper component */}
           <Grid item xs={12} sm={6} lg={3} md={3}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} square={true}>
               <Button
                 variant="contained"
                 color="tertiary"
@@ -181,7 +182,7 @@ function FullWidthGrid(props) {
                 align="left"
                 variant="subtitle1"
                 gutterBottom
-                style={fontFamily}
+                style={outerTypo}
               >
                 Meet our big achievers with exceptional achievements.
               </Typography>
@@ -210,7 +211,7 @@ function FullWidthGrid(props) {
 
           {/* Fourth paper component */}
           <Grid item xs={12} sm={6} lg={3} md={3}>
-            <Paper className={classes.paper}>
+            <Paper className={classes.paper} square={true}>
               <Button
                 variant="contained"
                 color="tertiary"
@@ -223,7 +224,7 @@ function FullWidthGrid(props) {
                 align="left"
                 variant="subtitle1"
                 gutterBottom
-                style={fontFamily}
+                style={outerTypo}
               >
                 Here at Zairza, we design, create and innovate.
               </Typography>
