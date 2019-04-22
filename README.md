@@ -29,4 +29,3 @@ This will be hosted on [zairza.in](https://zairza.in)
 └── gatsby.config.js            #gatsby config(plugins, themes, etc)
 └── package.json                #npm config file
 ```
-Toro
