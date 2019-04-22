@@ -5,6 +5,6 @@ import NavigationBar from "../Layouts/Navigationbar";
 export default () => (
   <div>
     <NavigationBar />
-    <h1>About Us</h1>
+    <h1>This is the about page.</h1>
   </div>
 );
