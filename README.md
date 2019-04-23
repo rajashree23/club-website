@@ -1,6 +1,6 @@
 ## About
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7e3456d2-905d-4146-a3cd-1fef5395407e/deploy-status)](https://app.netlify.com/sites/zairza/deploys) 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6a87a695-dc85-4074-ad15-718ab8598259/deploy-status)](https://app.netlify.com/sites/zairza/deploys)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?)](https://github.com/prettier/prettier)
 [![PRs Welcome](https://img.shields.io/badge/PRs%20-welcome-brightgreen.svg)](https://github.com/madlabsinc/mevn-cli/pull/new)
 
