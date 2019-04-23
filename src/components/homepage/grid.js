@@ -18,13 +18,11 @@ import Typography from "@material-ui/core/Typography";
 const innerTypo = {
   color: `grey`,
   fontSize: `16px`,
-  fontFamily: "Lato",
-  marginBottom: `20px`
+  fontFamily: "Lato"
 };
 
 const outerTypo = {
   fontFamily: "Lato",
-  marginTop: "18px",
   fontSize: `18px`
 };
 
