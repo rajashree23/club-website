@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
-import Sitemetadata from "../components/sitemetadata";
+import Sitemetadata from "./sitemetadata";
 
 const NavigationBar = () => (
   <div>
