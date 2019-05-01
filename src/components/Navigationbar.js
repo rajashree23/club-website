@@ -22,7 +22,7 @@ const logoStyle = {
 const NavigationBar = () => (
   <div>
     <Sitemetadata />
-    <Navbar collapseOnSelect expand="lg" bg="light" fixed="top">
+    <Navbar collapseOnSelect expand="lg" bg="light">
       <Navbar.Brand href="/" style={logoStyle}>
         ZAIRZA
       </Navbar.Brand>
