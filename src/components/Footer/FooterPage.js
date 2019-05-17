@@ -1,14 +1,13 @@
 import React from "react";
 import Sitemetadata from "../sitemetadata";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import "../Footer/footerCSS.css";
+import "./footerCSS.css";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { FaPhoneSlash } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { MdCall } from "react-icons/md";
 import { FaGithubSquare } from "react-icons/fa";
-import { FaTwitterSquare } from "react-icons/fa";
 
 var iconstyle = {
   color: "white"
@@ -39,10 +38,11 @@ const FooterPage = () => {
             <div className="location">
               Kalinga Nagar,Ghatikia
               <br />
-              CET, Bhubaneswar,Odisha
+              CET, Bhubaneswar
+              <br />
+              Odisha
             </div>
             <div className="contactn">
-              <br />
               <a href="#" style={{ color: "#fdd835" }} target="_blank">
                 cet.sac.zairza@gmail.com
               </a>
