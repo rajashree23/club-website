@@ -1,0 +1,52 @@
+/* .footer {
+    clear: both;
+    position: relative;
+
+    
+    background-color:black;
+} */
+
+.footer{
+    background-color: #1c2a48;
+    position:relative;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 100%;
+}
+.feet{
+    background-color: #1c2331; 
+}
+.contact{
+    margin-left: 115px;
+    column-gap: 2px;
+}
+.about{
+    margin-left: -70px;
+}
+
+.title{
+    color : white;
+    font-size: 25px;
+    font-family: Montserrat;
+}
+.location{
+    color: white;
+    margin-left: -20px;
+    
+}
+
+.cet{
+    color: white;
+
+}
+
+.feet{
+    color: white;
+}
+ .icons{
+     margin-left: -12px;
+ }
+ .contactn{
+    margin-left: -20.5px;
+ }
