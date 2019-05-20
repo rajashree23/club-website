@@ -1,86 +1,113 @@
 import React from "react";
-import Sitemetadata from "../sitemetadata";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-import "./footerCSS.css";
-import { FaRegEnvelope } from "react-icons/fa";
-import { FaMapMarkerAlt } from "react-icons/fa";
-import { FaPhoneSlash } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
-import { MdCall } from "react-icons/md";
-import { FaGithubSquare } from "react-icons/fa";
+import { withStyles } from "@material-ui/core/styles";
+import PropTypes from "prop-types";
+import Grid from "@material-ui/core/Grid";
+import Icon from "react-icons-kit";
+import {
+  envelope,
+  phone,
+  facebook,
+  linkedin,
+  github
+} from "react-icons-kit/fa";
 
-var iconstyle = {
-  color: "white"
-};
+const styles = theme => ({
+  root: {
+    flexGrow: 1,
+    fontSize: "1rem"
+  },
+  content: {
+    textAlign: "center",
+    fontFamily: "Roboto"
+  },
+  upper: {
+    backgroundColor: "#2c3e50",
+    color: "white",
+    marginTop: "0.7rem",
+    paddingLeft: "1rem",
+    paddingTop: "0.5rem",
+    paddingBottom: "1rem"
+  },
+  lower: {
+    backgroundColor: "#031828",
+    color: "white",
 
-const FooterPage = () => {
+    paddingTop: "1em",
+    alignItems: "center",
+    justify: "center",
+    height: "3em"
+  },
+  nomargin: {
+    marginBottom: 0
+  },
+  icon: {
+    marginRight: "0.5rem",
+    color: "white"
+  },
+  auto: {
+    display: "inline-block",
+    textAlign: "left"
+  }
+});
+
+const Footer = ({ classes }) => {
   return (
-    <MDBFooter className="font-small pt-4 mt-4 footer">
-      <MDBContainer fluid className="text-center text-md-left">
-        <MDBCol md="8" className="contact">
-          <p className="title">Contact Us</p>
-          <MDBCol md="1" className="icons">
-            <FaMapMarkerAlt style={iconstyle} />
+    <div className={classes.root}>
+      <Grid className={classes.upper} container spacing={24}>
+        <Grid className={classes.content} item lg={6} md={6} sm={12}>
+          <div className={classes.auto}>
+            <h4>
+              <strong>Contact Us</strong>
+            </h4>
+            <p className={classes.nomargin}>SAC, Near Canteen,</p>
+            <p className={classes.nomargin}>CET Bhubaneswar, Bhubaneswar,</p>
+            <p className={classes.nomargin}>Odisha, India- 751003</p>
             <br />
-            <br />
-            <br />
-            <FaRegEnvelope style={iconstyle} />
-            <br />
-            <MdCall style={iconstyle} />
-            <br />
-            <span>
-              <a href="https://www.facebook.com/zairza.cetb/" target="_blank">
-                <FaFacebookSquare style={iconstyle} />
-              </a>
-            </span>
-          </MDBCol>
-          <MDBCol md="3" className="location">
-            <div className="location">
-              Kalinga Nagar,Ghatikia
-              <br />
-              CET, Bhubaneswar
-              <br />
-              Odisha
-            </div>
-            <div className="contactn">
-              <a href="#" style={{ color: "#fdd835" }} target="_blank">
-                cet.sac.zairza@gmail.com
-              </a>
-              <br />
-              <tel style={{ color: "#fdd835" }}>8598033713</tel>
-              <br />
-              <span>
-                <a href="https://github.com/zairza-cetb" target="_blank">
-                  <FaGithubSquare style={iconstyle} />{" "}
-                </a>
-              </span>
-            </div>
-          </MDBCol>
-          <MDBRow />
-        </MDBCol>
-        <MDBRow>
-          <MDBCol md="15" className="about">
-            <p className="title">About</p>
-
-            <p className="cet">
-              Technical Society of CET,Bhubaneswar
-              <br />
-              <br />
-              Wonder.Think.Create
-              <br />
-              <br />
-              Designed by Zairza Web Team
+            <p>
+              <Icon className={classes.icon} icon={envelope} />
+              cet.sac.zairza@gmail.com
             </p>
-          </MDBCol>
-        </MDBRow>
-      </MDBContainer>
-      <div className="footer-copyright text-center py-3 feet">
-        <MDBContainer fluid>
-          <p class="feet">&copy; 2019 Zairza All Rights Reserved </p>
-        </MDBContainer>
-      </div>
-    </MDBFooter>
+            <p>
+              <Icon className={classes.icon} icon={phone} />
+              +91-8598033713
+            </p>
+            <p>
+              <div />
+              <a href="https://www.facebook.com/zairza.cetb/">
+                <Icon className={classes.icon} icon={facebook} />
+              </a>
+              <a href="https://github.com/zairza-cetb/">
+                <Icon className={classes.icon} icon={github} />
+              </a>
+              <a href="https://linkedin.com/company/zairza/">
+                <Icon className={classes.icon} icon={linkedin} />
+              </a>
+            </p>
+          </div>
+        </Grid>
+        <Grid className={classes.content} item lg={6} md={6} sm={12}>
+          <div className={classes.auto}>
+            <h4>
+              <strong>About Us</strong>
+            </h4>
+            <p className={classes.nomargin}>
+              At Zairza, we cultivate technical innovation, shared learning
+            </p>
+            <p> and personal improvement among the members.</p>
+            <p>
+              <strong>Wonder. Think. Create.</strong>
+            </p>
+            <p>Designed with &#10084; by Zairza Web Team</p>
+          </div>
+        </Grid>
+      </Grid>
+      <Grid className={classes.lower}>
+        <Grid className={classes.content}>
+          <p>&copy; 2019 Zairza All Rights Reserved </p>
+        </Grid>
+      </Grid>
+    </div>
   );
 };
 
-export default FooterPage;
+export default withStyles(styles)(Footer);
